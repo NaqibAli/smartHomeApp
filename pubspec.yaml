@@ -1,0 +1,49 @@
+name: smart_office_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: ^1.17.1
+  firebase_auth: ^3.3.19
+  cloud_firestore: ^3.1.17
+  firebase_storage: ^10.2.17
+  dotted_border: ^2.0.0+2
+  flutter_svg: ^1.0.3
+  firebase_database: ^9.0.15
+
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/weather/
+    - assets/icons/svg/
+  
+  fonts:
+    - family: "Noto Sans"
+      fonts:
+        - asset: "assets/fonts/NotoSans-Bold.ttf"
+          style: "normal"
+        - asset: "assets/fonts/NotoSans-Regular.ttf"
+          style: "normal"
+    - family: "Poppins"
+      fonts:
+        - asset: "assets/fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+
